@@ -1,5 +1,5 @@
 " Name:         FBGNeon
-" Description:  A vim Neon colorscheme
+" Description:  A retro-future inspired colorscheme for vim
 " Author:       Felipe Bagnato <febagnato@protonmail.com>
 " Maintainer:   Felipe Bagnato <febagnato@protonmail.com>
 " Website:      https://github.com/febagnato/FBGNeon-vim
