@@ -35,9 +35,9 @@ hi! link Number    Constant
 hi! link Float     Constant
 
 hi! String ctermfg=200 ctermbg=NONE cterm=BOLD
+hi! SpecialChar ctermfg=202 ctermbg=NONE cterm=NONE
 hi! link Character String
 hi! link Special String
-hi! link SpecialChar String
 
 hi! Identifier ctermfg=255 ctermbg=NONE cterm=NONE
 hi! Function ctermfg=202 ctermbg=NONE cterm=NONE
