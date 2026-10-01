@@ -57,8 +57,7 @@ function _omb_theme_PROMPT_COMMAND() {
   local python_venv
   _omb_prompt_get_python_venv
 
-  # PS1=$TITLEBAR"\n${_omb_prompt_teal}┌─${_omb_prompt_bold_teal}[${_fbg_purple}\u${_omb_prompt_bold_teal}][${_fbg_purple}\h${_omb_prompt_bold_teal}]${_omb_prompt_teal}─${_fbg_green}(\w)$(scm_prompt_info)$python_venv\n${_omb_prompt_teal}└─$SC$BC${_omb_prompt_bold_teal}[${_fbg_green}\$${_omb_prompt_bold_teal}]${_omb_prompt_white} "
-  PS1=$TITLEBAR"\n${_omb_prompt_teal}┌─${_omb_prompt_bold_teal}[${_fbg_purple}\u${_omb_prompt_bold_teal}][${_fbg_purple}\h${_omb_prompt_bold_teal}]${_omb_prompt_teal}─${_fbg_green}(\w)${_omb_prompt_bold_teal}$(_fbg_prompt_info)$python_venv\n${_omb_prompt_teal}└─$SC$BC${_omb_prompt_bold_teal}[${_fbg_green}\$${_omb_prompt_bold_teal}]${_omb_prompt_white} "
+  PS1=$TITLEBAR"${_omb_prompt_teal}┌─${_omb_prompt_bold_teal}[${_fbg_purple}\u${_omb_prompt_bold_teal}][${_fbg_purple}\h${_omb_prompt_bold_teal}]${_omb_prompt_teal}─${_fbg_green}(\w)${_omb_prompt_bold_teal}$(_fbg_prompt_info)$python_venv\n${_omb_prompt_teal}└─$SC$BC${_omb_prompt_bold_teal}[${_fbg_green}\$${_omb_prompt_bold_teal}]${_omb_prompt_white} "
 }
 
 # scm theming
